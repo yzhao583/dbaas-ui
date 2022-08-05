@@ -17,6 +17,7 @@ const App = () => {
     const registry = getRegistry();
     registry.register({ notifications: notificationsReducer });
     chrome.init();
+    insights.chrome.identifyApp('dbaas');
     const unregister = insights.chrome.on('APP_NAVIGATION', (event) => {
       if (event?.domEvent?.href) {
         history.push(event?.domEvent?.href);
