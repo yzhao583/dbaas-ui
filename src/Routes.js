@@ -3,6 +3,9 @@ import { Route, Switch } from 'react-router-dom';
 
 import { Bullseye, Spinner } from '@patternfly/react-core';
 
+const AdminDashboard = lazy(() =>
+  import(/* webpackChunkName: "AdminDashboard" */ './components/admin-dashboard/AdminDashboard')
+);
 const HomePage = lazy(() =>
   import(/* webpackChunkName: "HomePage" */ './Routes/HomePage')
 );
@@ -19,7 +22,7 @@ const Routes = () => (
   >
     <Switch>
       <Route path="/">
-        <HomePage />
+        <AdminDashboard />
       </Route>
       <Route>
         <OopsPage />

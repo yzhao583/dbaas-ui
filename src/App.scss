@@ -1,2 +1,228 @@
 // Importing Global Variables
 @import "~@redhat-cloud-services/frontend-components-utilities/styles/_all";
+
+.section-padding-left {
+    float: left;
+    height: 1000px;
+    width: 30px;
+  }
+
+  .section-title {
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+  }
+  
+  .section-subtitle {
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .section-header-div {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .form-div {
+    width: 90%;
+    display: inline-block;
+  }
+  
+  .radio-label {
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  .section-breadcrumb {
+    font-family: "Red Hat Text";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    padding-bottom: 20px;
+  }
+  
+  .breadcrumb-link {
+    color: #06c;
+    cursor: pointer;
+  }
+  
+  .breadcrumb-chevron {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .hide {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .text-field-label {
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+
+  .text-field-title {
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  .text-field {
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: rgb(240, 240, 240);
+    border-left-color: rgb(240, 240, 240);
+    border-right-color: rgb(240, 240, 240);
+    border-bottom-color: rgb(138, 141, 144);
+    padding: 5px 8px;
+    width: 500px;
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+  
+  .instance-table {
+    width: 100%;
+  }
+  
+  .select-radio-input {
+    margin-right: 5px;;
+  }
+  
+  .submit-button {
+    margin-right: 8px;
+  }
+  
+  .statusResults {
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .vertically-center-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .no-left-and-right-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .large-bottom-padding {
+    padding-bottom: 30px !important;
+  }
+
+  .no-bottom-padding {
+    padding-bottom: 0px !important;
+  }
+
+  .extra-bottom-margin {
+    margin-bottom: 20px !important;
+  }
+
+  .large-top-margin {
+    margin-top: 15px !important;
+  }
+
+  .extra-top-margin {
+    margin-top: 10px !important;
+  }
+
+  .extra-left-margin {
+    margin-left: 10px !important;
+  }
+
+  .no-top-margin {
+    margin-top: 0px !important;
+  }
+
+  .instance-table-container {
+    margin: 30px;
+  }
+
+  .error-icon {
+    color: #c9190b !important
+  }
+
+  .success-icon {
+    color: #3E8635 !important;
+  }
+
+  .warning-icon {
+    color: #F0AB00 !important;
+  }
+
+  .instance-table {
+    display: flex !important;
+  }
+
+  .provider-account-selection {
+    width: 50%;
+  }
+
+  .half-width-selection {
+    width: 50%;
+  }
+
+  .sticky-table-container {
+    height: 600px;
+  }
+
+  .sticky-header-table {
+    position: relative;
+  }
+
+  .sticky-header-th > tr > * {
+    position: sticky !important;
+    top: 0;
+    z-index: var(--pf-global--ZIndex--xs);
+    background: var(--pf-c-table--BackgroundColor);
+  }
+
+  .issue-text {
+    color: '#2b9af3';
+    padding-left: '3px';
+  }
+
+  .emptyState-title {
+    padding-top: 20px;
+  }
+
+  .bottom-sticky-section {
+    background-position: top;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid rgba(3,3,3,0.06);
+    width: 100%;
+    background: white;
+    padding: 15px 0px;
+    z-index: 100;
+  }
+
+  .bottom-sticky-alert {
+    background-position: top;
+    position: fixed;
+    bottom: 33px;
+    z-index: 101;
+  }
+
+  .rds-help-box {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
